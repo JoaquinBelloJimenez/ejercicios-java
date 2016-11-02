@@ -28,8 +28,8 @@ public class Ejercicio19 {
     else if (( numero > -100000 ) && ( numero < 100000 )) {
       cifras = 5;
     }
-    else {System.out.println("Su número tiene estas cifras: " + cifras);
-    }
+    System.out.println("Su número tiene estas cifras: " + cifras);
+    
      
   }
 }
