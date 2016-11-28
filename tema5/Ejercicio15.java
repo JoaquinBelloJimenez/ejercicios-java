@@ -8,23 +8,25 @@ public class Ejercicio15 {
   
   public static void main(String[] args) {
     
-    int resultado = 1;
+    double resultado = 1;
     
-    System.out.println("Introduce una base(Entero positivo):");
-    double base = Double.parseDouble(System.console().readLine());
-    System.out.println("Introduce un exponente(Entero positivo):");
-    int exponente = Integer.parseInt(System.console().readLine());
+    System.out.println("Introduce una base:");
+    double baseN = Double.parseDouble(System.console().readLine());
+    System.out.println("Introduce un exponente:");
+    int potenciaN = Integer.parseInt(System.console().readLine());
     
-    if(base > 0 && exponente > 0){
+    int potencia;    
+    int exponente;
     
-    for (int i = 0;i != exponente; i++){
-      
-      resultado = resultado *= base;
-      
+    for (int i = 1;i <= potenciaN; i++){
+      potencia = 1;
+      exponente = i;
+     for (int j = 0;j < exponente;j++){
+       potencia *= baseN;
+     }
+    System.out.println(baseN + "^" + i + " = " + potencia);
+
     }
-    System.out.println("El resultado es: " + resultado);
-    }else{
-     System.out.println("Números positivos, genio");
-    }
+    System.out.println("Fin del programa");
   }
 }
