@@ -27,6 +27,7 @@ public class Ejercicio09 {
       if (cantidad == 0){
         System.out.println("El primer número es 24");
         }else{
+      System.out.println(numero);
       System.out.println("Números mostrados: " + cantidad);
         }
       System.out.println("Fin del programa");
