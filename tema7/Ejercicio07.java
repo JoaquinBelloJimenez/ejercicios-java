@@ -7,28 +7,29 @@ public class Ejercicio07 {
 	
 	public static void main (String args[]) {
     
-    int[] numero = new int[15];
-    
-    System.out.println("Introduce 15 números y los reordenaré :-)");
-    
-    for (int cont= 0;cont <15; cont++){
-      System.out.print("Introduce un número: ");
-      
-      numero[cont] = Integer.parseInt(System.console().readLine());
+    //Declaro el array y las variables
+    int[] numero = new int[100];
+    int valorA = 0;
+    int valorB = 0;
+    //Bucle para crear los valores del array
+    System.out.println("Valores originales");
+    for (int i = 0; i < 100; i++) {
+      numero[i] = (int)((Math.random()*20));
+      System.out.print(numero[i] + " ");
+    }
+    //Pide los valores por teclado
+    System.out.println("\nIntroduce un número: ");
+    valorA = Integer.parseInt(System.console().readLine());
+      System.out.println("Cambiar por: ");
+    valorB = Integer.parseInt(System.console().readLine());
+    //Bucle para encontrar el valor y cambiarlo
+    System.out.println("Valor editado");
+    for (int j = 0; j < 100;j++) {
+      if (numero[j] == valorA){
+        numero[j] = valorB;
       }
-    System.out.print("");
-    for (int contB= 0;contB <15; contB++){
-      System.out.println(numero[contB]);
-    }
-    int aux = numero[14];
-    
-    for (int contC= 14; contC >0; contC--){
-      numero[contC] = numero[contC-1];
-    }
-    numero[0] = aux;
-    
-    for (int contD= 0;contD <15; contD++){
-      System.out.println(numero[contD]);
+      System.out.print(numero[j] + " ");
+      
     }
 	}
 }
