@@ -1,12 +1,19 @@
- package biblioteca8;
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package tema8;
 
-
- public class agrupadasA {
-   
-  /**
+/**
+ *
+ * @author joaquin
+ */
+class libreria {
+ /**
    * Es verdadero si el número introducido es capiúa y falso si no lo es.
    * 
-   * @param "n" Número a comprobar si es o no capicúa.
+   * @param n
    * @return  Si es capicúa Verdadero, en caso contrario Falso.
    */
    
@@ -118,12 +125,4 @@
   
     return respuesta;
   }
-  
-  
-  
-  
-  
-  
-  
-   
-   }
+ }

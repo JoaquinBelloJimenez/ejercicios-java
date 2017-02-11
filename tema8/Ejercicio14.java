@@ -29,7 +29,33 @@ public class Ejercicio14 {
         System.out.println("El siguiente número primo de 27 es: ");
         System.out.println(biblioteca8.agrupadasA.primoMayor(27));
     //Ejercicio 4 Potencia
+        System.out.println("Vamos con 2 elevado a 19");
+        System.out.println(biblioteca8.agrupadasA.potencia(2, 19));        
+    //Ejercicio 5 digitos
+        System.out.println("Vamos a contar cuantos dígitos tiene el 2353");
+        System.out.println(biblioteca8.agrupadasA.cuentaNumeros(2353));
+    //Ejercicio 6 voleta
         System.out.println("");
+    //Ejercicio 7 digitoN
+        System.out.println("");
+    //Ejercicio 8 posicionDeDigito
+        System.out.println("");        
+    //Ejercicio 9 quitaPorDetras
+        System.out.println("");       
+    //Ejercicio 10 quitaPorDelante
+        System.out.println("");
+    //Ejercicio 11 pegaPorDetras
+        System.out.println("");
+    //Ejercicio 12 pegarPorDelante
+        System.out.println("");
+    //Ejercicio 13 trozoDeNumero
+        System.out.println("");
+    //Ejercicio 14 juntaNumeros
+        System.out.println("");
+        
+        
+        
+        
   
   }
 	}
